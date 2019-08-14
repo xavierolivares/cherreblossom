@@ -6,7 +6,7 @@ Access the provided database and list the top ten site visitors in descending or
 
 After cloning the repository into your chosen directory, you will need to run the following in your terminal -
 
-## Step 1: npm install sqlite
+## Step 1: npm install
 
 We want to connect to the sqlite database through node.js. Installing this sqlite module will provide us the methods to accomplish this.
 
@@ -30,9 +30,13 @@ This runs a SQL query into the frequent_browsers table. It console logs the resu
 ## Step 4: node clear.js
 In case you wanted to clear the table, you can run this.
 
+## EXTRA:
+I managed to place the 
+
 ## Helpful Resources
 
 Connecting To SQLite Database Using Node.js: http://www.sqlitetutorial.net/sqlite-nodejs/connect/
 
 Querying Data in SQLite Database from Node.js Applications: http://www.sqlitetutorial.net/sqlite-nodejs/query/
 
+Dockerizing a Node.js web app: https://nodejs.org/de/docs/guides/nodejs-docker-webapp/
