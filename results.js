@@ -4,7 +4,7 @@ let db = new sqlite3.Database("./db/testdb.db", sqlite3.OPEN_READWRITE, err => {
 	if (err) {
 		return console.error(err.message);
 	}
-	console.log("Pulling frequent_browsers table from the Cherrie SQlite database...");
+	console.log("Pulling frequent_browsers table from the Cherre SQlite database...");
 });
 
 let sql = `SELECT * FROM frequent_browsers`;

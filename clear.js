@@ -4,7 +4,7 @@ let db = new sqlite3.Database("./db/testdb.db", sqlite3.OPEN_READWRITE, err => {
 	if (err) {
 		return console.error(err.message);
 	}
-	console.log("Deleting all results from the frequent_browsers table in the Cherrie SQlite database...");
+	console.log("Deleting all results from the frequent_browsers table in the Cherre SQlite database...");
 });
 
 let sql = `DELETE FROM frequent_browsers`;

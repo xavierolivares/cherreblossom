@@ -4,7 +4,7 @@ let db = new sqlite3.Database("./db/testdb.db", sqlite3.OPEN_READWRITE, err => {
 	if (err) {
 		return console.error(err.message);
 	}
-	console.log("Connected to the Cherrie SQlite database.");
+	console.log("Connected to the Cherre SQlite database.");
 });
 
 let sql = `INSERT INTO frequent_browsers 
