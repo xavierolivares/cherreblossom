@@ -30,8 +30,8 @@ This runs a SQL query into the frequent_browsers table. It console logs the resu
 ## Step 4: node clear.js
 In case you wanted to clear the table, you can run this.
 
-## EXTRA:
-I managed to place the 
+## EXTRA - Docker:
+By running curl -i localhost:49160, I managed to get the express server running on Docker! It's only in development mode though and does not show my work in SQL.
 
 ## Helpful Resources
 
