@@ -1,0 +1,22 @@
+{
+  "name": "cherre",
+  "version": "1.0.0",
+  "description": "Access the provided database and list the top ten site visitors in descending order to the frequent_browsers table.",
+  "main": "clear.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavierolivares/cherreblossom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavierolivares/cherreblossom/issues"
+  },
+  "homepage": "https://github.com/xavierolivares/cherreblossom#readme",
+  "dependencies": {
+    "sqlite": "^3.0.3"
+  }
+}
