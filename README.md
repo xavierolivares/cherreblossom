@@ -22,10 +22,14 @@ Within this file, we are running a SQL query that does the following:
 
 **Running this multiple times will result in duplicate instances of the top ten visitors in frequent_browsers. See Step 4 for a remedy.**
 
-## Step 3: node results.js
+## Step 3A: node results.js
 This runs a SQL query into the frequent_browsers table. It console logs the results.
 
 **Will not return users if you haven't run Step 2 first.**
+
+## Step 3B: node people.js
+
+This runs an inner join query with the people table and frequent_browsers table where the ids match. You can see the names of frequent browsers by running this command.
 
 ## Step 4: node clear.js
 In case you wanted to clear the table, you can run this.
